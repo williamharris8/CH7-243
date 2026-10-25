@@ -5,5 +5,9 @@ public class Main {
         for (int id : sampleIds) archive.add(id);
         System.out.println("Archive initialized with sample IDs.");
         System.out.println("Archive height: " + archive.height());
+        System.out.print("Inorder: ");
+        archive.inOrderTraversal();
+        System.out.print("Preorder: ");
+        archive.preOrderTraversal();
     }
 }
