@@ -1,2 +1,1 @@
-# Journal
-Write your Journal questions and notes here.
+PHASE 1 - For this phase I've made two classes then added sample accession IDs. Add method will compare the new ID to each node starting at the root then moving left or right, smaller or greater. Comparable is required becase the tree depends on compareTo for deciding which value is smaller.
